@@ -9,14 +9,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
-        android:gravity="center"
-        android:background="#f11"
-        android:layout_weight="2"
-        android:textSize="40sp"
-        android:textColor="#000000"
-        android:text="1"
         android:layout_width="match_parent"
-        android:layout_height="0dp" />
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#08b30b"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="40sp" />
 
     <LinearLayout
         android:weightSum="6"
@@ -36,48 +36,48 @@
             android:layout_height="match_parent" />
 
         <LinearLayout
-            android:orientation="vertical"
-            android:weightSum="5"
-            android:layout_weight="4"
             android:layout_width="0dp"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:weightSum="5">
 
             <TextView
-                android:gravity="center"
-                android:background="#0c8bb6"
-                android:textSize="40sp"
-                android:textColor="#000000"
-                android:text="3"
-                android:layout_weight="3"
                 android:layout_width="match_parent"
-                android:layout_height="0dp" />
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="#0c8bb6"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="#000000"
+                android:textSize="40sp" />
 
             <LinearLayout
-                android:orientation="horizontal"
-                android:weightSum="4"
-                android:layout_weight="2"
                 android:layout_width="match_parent"
-                android:layout_height="0dp">
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:weightSum="4">
 
                 <TextView
-                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
                     android:background="#d797e2"
-                    android:textSize="40sp"
-                    android:textColor="#000000"
+                    android:gravity="center"
                     android:text="4"
-                    android:layout_weight="2"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent" />
+                    android:textColor="#000000"
+                    android:textSize="40sp" />
 
                 <TextView
-                    android:gravity="center"
-                    android:background="#9f0ab9"
-                    android:textSize="40sp"
-                    android:textColor="#000000"
-                    android:text="5"
-                    android:layout_weight="2"
                     android:layout_width="0dp"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="#9f0ab9"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="#000000"
+                    android:textSize="40sp" />
 
             </LinearLayout>
 
